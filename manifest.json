@@ -1,0 +1,14 @@
+{
+  "name": "Amazon",
+  "version": "1.0",
+  "description": "Utility plugin for Amazon.com",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://www.amazon.com/"
+    ],
+    "js": ["content.js"]
+  }
+],
+  "manifest_version": 2
+}
