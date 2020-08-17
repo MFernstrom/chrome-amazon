@@ -1,7 +1,8 @@
 {
-  "name": "Amazon",
+  "name": "Amazon Search Focus",
   "version": "1.0",
-  "description": "Utility plugin for Amazon.com",
+  "description": "Sets focus on the search on Amazon.com",
+  "icons": { "128": "icon.png" },
   "content_scripts": [
   {
     "matches": [
